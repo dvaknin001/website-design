@@ -1,0 +1,123 @@
+{
+  "_readme": "Every image the site uses. `node tools/codex-image.mjs batch _config/art/shots.json` makes whatever is missing. Delete a raw PNG (or pass --force --only id) to remake it. Raw PNGs live in assets/art/raw/ and are turned into web images by tools/images.mjs.",
+  "baseRefs": [
+    "_config/brand/reference/logo.png",
+    "_config/brand/reference/hero-mock-cosmic-dill.jpg"
+  ],
+  "shots": [
+    {
+      "id": "hero-plate",
+      "aspect": "wide",
+      "out": "assets/art/raw/hero-plate.png",
+      "prompt": "A clean widescreen plate of the world in reference 2, with ALL lettering removed: no MYTHICAL PICKLES wordmark, no eye logo, no tagline text, no TM mark anywhere in the sky (the sky is just moon, stars and cloud). The COSMIC DILL jar stays exactly as in reference 2, at the centre, standing on a wet rock in black reflective water. Left: the giant pickle leaning on a rock with quartz crystals and a brass chalice. Right: the weathered stone hand holding a pickle, beside a ruined stone arch that opens onto a violet and blue nebula. Behind: a rocky mountain with a waterfall, and a huge pale moon rising behind the jar. Green mist drifts across the left. Limes, dill, peppercorns in a brass bowl at the base. The whole upper-centre of the frame (above the jar) is calm dark sky with a soft moon glow and stars, empty of objects, so a wordmark can be placed there later."
+    },
+    {
+      "id": "alchemist",
+      "aspect": "poster",
+      "out": "assets/art/raw/alchemist.png",
+      "prompt": "A faceless hooded alchemist-pickler seen from behind and slightly to the side, standing in a candle-lit ancient stone cellar. Long dark robe with a subtle chartreuse trim. Their gloved hands raise one glowing jar of pickles (label facing the viewer, as in reference 2) toward chartreuse-green light. Shelves on both sides are packed with dim jars, their labels too far and dark to read. Copper stills, hanging dill, sacks of peppercorns, quartz crystals, drifting green mist and floating motes. No face is visible at all. Moody, dramatic, near-black with chartreuse and warm candle highlights."
+    },
+    {
+      "id": "card-cosmic-dill",
+      "aspect": "portrait",
+      "out": "assets/art/raw/card-cosmic-dill.png",
+      "prompt": "Flavour: COSMIC DILL (classic dill, the hero of the line). The jar stands dead centre, filling about 45 percent of the frame height, label reading exactly COSMIC DILL. Moonlit ruined arch behind it opening onto a violet nebula, waterfall mountain, a huge pale moon directly behind the jar, quartz crystals, dill fronds and peppercorns on a wet black rock in reflective black water, chartreuse-green mist. Accent glow colour: chartreuse #E9FA72. Vertical tarot-card composition with calm dark sky at the top."
+    },
+    {
+      "id": "card-dragons-breath",
+      "aspect": "portrait",
+      "out": "assets/art/raw/card-dragons-breath.png",
+      "prompt": "Flavour: DRAGON'S BREATH (fiery habanero heat). The jar stands dead centre, filling about 45 percent of the frame height, label reading exactly DRAGON'S BREATH. The brine is deep amber with orange habanero rings and whole red chillies visible among the pickles. Setting: a volcanic obsidian cavern, a river of lava behind, the huge curved ribcage of a dragon skeleton arching over the jar, drifting embers and heat haze, glowing habanero peppers and red chillies at the jar's base on black rock, wet obsidian reflecting the fire. Accent glow colour: ember orange #FF6A2B, still with a hint of chartreuse from the label. Vertical tarot-card composition with dark smoky space at the top."
+    },
+    {
+      "id": "card-golden-elixir",
+      "aspect": "portrait",
+      "out": "assets/art/raw/card-golden-elixir.png",
+      "prompt": "Flavour: GOLDEN ELIXIR (sweet honey-gold bread-and-butter style, sliced pickle chips). The jar stands dead centre, filling about 45 percent of the frame height, label reading exactly GOLDEN ELIXIR. The brine glows like liquid honey around sliced pickle chips. Setting: an ancient alchemist's temple with shafts of golden light through tall arches, a honeycomb altar, floating golden dust, amber glass vessels and brass astrolabes, a marble floor with a shallow reflecting pool. Accent glow colour: warm honey gold #FFC247. Vertical tarot-card composition with soft dark space at the top."
+    },
+    {
+      "id": "card-blood-moon-garlic",
+      "aspect": "portrait",
+      "out": "assets/art/raw/card-blood-moon-garlic.png",
+      "prompt": "Flavour: BLOOD MOON GARLIC (bold garlic-forward). The jar stands dead centre, filling about 45 percent of the frame height, label reading exactly BLOOD MOON GARLIC. Whole garlic cloves are visible in the brine among the pickles. Setting: a ruined gothic cathedral crypt under an enormous crimson blood moon, ravens perched on broken arches, thorny black roses, garlic bulbs and cloves and a wooden stake at the base of the jar on wet black stone, low crimson mist. Accent glow colour: blood crimson #E23B4E. Vertical tarot-card composition with dark space at the top."
+    },
+    {
+      "id": "card-witchs-amethyst",
+      "aspect": "portrait",
+      "out": "assets/art/raw/card-witchs-amethyst.png",
+      "prompt": "Flavour: WITCH'S AMETHYST (beet-brined, magenta-violet). The jar stands dead centre, filling about 45 percent of the frame height, label reading exactly WITCH'S AMETHYST. The brine is a glowing magenta-violet with pale pink pickle spears. Setting: a huge amethyst geode cave, towering glowing violet crystals, a bubbling iron cauldron and a spellbook with no readable text, candles, glowing mushrooms, a shallow violet pool reflecting the crystals. Accent glow colour: amethyst violet #B65CFF. Vertical tarot-card composition with dark crystal-cave space at the top."
+    },
+    {
+      "id": "card-frostwyrm-mint",
+      "aspect": "portrait",
+      "out": "assets/art/raw/card-frostwyrm-mint.png",
+      "prompt": "Flavour: FROSTWYRM MINT (cooling mint and dill). The jar stands dead centre, filling about 45 percent of the frame height, label reading exactly FROSTWYRM MINT. The brine is pale icy mint-green with fresh mint leaves among the pickles, frost on the outside of the glass. Setting: a frozen glacier cavern with a great ice arch, aurora borealis in the sky beyond, the pale coiled body of a frost dragon half-buried in ice, frosted mint sprigs and ice crystals at the base on dark wet stone. Accent glow colour: ice cyan #7FE9FF. Vertical tarot-card composition with dark sky at the top."
+    },
+    {
+      "id": "scene-cosmic-dill",
+      "aspect": "wide",
+      "out": "assets/art/raw/scene-cosmic-dill.png",
+      "refs": [
+        "assets/art/raw/card-cosmic-dill.png"
+      ],
+      "prompt": "Reference image 3 is the portrait card art for this exact flavour. Make the WIDESCREEN (16:9) version of the same world: the identical jar with the identical label reading exactly COSMIC DILL, the same brine and contents, the same setting (the moonlit ruined arch with the violet nebula, the waterfall mountain and the huge pale moon, quartz crystals and dill on a wet black rock in reflective black water, chartreuse-green mist). Recompose for a wide frame: the jar stands on the RIGHT third of the frame (its centre at about 68 percent of the width), filling about 60 percent of the frame height. The LEFT half is darker, calmer atmosphere and environment with soft glow, deliberately low on detail and clutter, because a large headline will sit there. Keep the accent glow colour of the portrait card."
+    },
+    {
+      "id": "scene-dragons-breath",
+      "aspect": "wide",
+      "out": "assets/art/raw/scene-dragons-breath.png",
+      "refs": [
+        "assets/art/raw/card-dragons-breath.png"
+      ],
+      "prompt": "Reference image 3 is the portrait card art for this exact flavour. Make the WIDESCREEN (16:9) version of the same world: the identical jar with the identical label reading exactly DRAGON'S BREATH, the same brine and contents, the same setting (the volcanic obsidian cavern with rivers of lava, the great dragon skeleton arching overhead, embers, habanero peppers and red chillies on black rock). Recompose for a wide frame: the jar stands on the RIGHT third of the frame (its centre at about 68 percent of the width), filling about 60 percent of the frame height. The LEFT half is darker, calmer atmosphere and environment with soft glow, deliberately low on detail and clutter, because a large headline will sit there. Keep the accent glow colour of the portrait card."
+    },
+    {
+      "id": "scene-golden-elixir",
+      "aspect": "wide",
+      "out": "assets/art/raw/scene-golden-elixir.png",
+      "refs": [
+        "assets/art/raw/card-golden-elixir.png"
+      ],
+      "prompt": "Reference image 3 is the portrait card art for this exact flavour. Make the WIDESCREEN (16:9) version of the same world: the identical jar with the identical label reading exactly GOLDEN ELIXIR, the same brine and contents, the same setting (the ancient alchemist temple with shafts of golden light, honeycomb, amber vessels and brass astrolabes, a shallow reflecting pool). Recompose for a wide frame: the jar stands on the RIGHT third of the frame (its centre at about 68 percent of the width), filling about 60 percent of the frame height. The LEFT half is darker, calmer atmosphere and environment with soft glow, deliberately low on detail and clutter, because a large headline will sit there. Keep the accent glow colour of the portrait card."
+    },
+    {
+      "id": "scene-blood-moon-garlic",
+      "aspect": "wide",
+      "out": "assets/art/raw/scene-blood-moon-garlic.png",
+      "refs": [
+        "assets/art/raw/card-blood-moon-garlic.png"
+      ],
+      "prompt": "Reference image 3 is the portrait card art for this exact flavour. Make the WIDESCREEN (16:9) version of the same world: the identical jar with the identical label reading exactly BLOOD MOON GARLIC, the same brine and contents, the same setting (the ruined gothic cathedral crypt under an enormous crimson blood moon, ravens, thorny black roses, garlic bulbs and cloves). Recompose for a wide frame: the jar stands on the RIGHT third of the frame (its centre at about 68 percent of the width), filling about 60 percent of the frame height. The LEFT half is darker, calmer atmosphere and environment with soft glow, deliberately low on detail and clutter, because a large headline will sit there. Keep the accent glow colour of the portrait card."
+    },
+    {
+      "id": "scene-witchs-amethyst",
+      "aspect": "wide",
+      "out": "assets/art/raw/scene-witchs-amethyst.png",
+      "refs": [
+        "assets/art/raw/card-witchs-amethyst.png"
+      ],
+      "prompt": "Reference image 3 is the portrait card art for this exact flavour. Make the WIDESCREEN (16:9) version of the same world: the identical jar with the identical label reading exactly WITCH'S AMETHYST, the same brine and contents, the same setting (the giant amethyst geode cave with glowing violet crystals, an iron cauldron, candles and glowing mushrooms, a violet pool). Recompose for a wide frame: the jar stands on the RIGHT third of the frame (its centre at about 68 percent of the width), filling about 60 percent of the frame height. The LEFT half is darker, calmer atmosphere and environment with soft glow, deliberately low on detail and clutter, because a large headline will sit there. Keep the accent glow colour of the portrait card."
+    },
+    {
+      "id": "scene-frostwyrm-mint",
+      "aspect": "wide",
+      "out": "assets/art/raw/scene-frostwyrm-mint.png",
+      "refs": [
+        "assets/art/raw/card-frostwyrm-mint.png"
+      ],
+      "prompt": "Reference image 3 is the portrait card art for this exact flavour. Make the WIDESCREEN (16:9) version of the same world: the identical jar with the identical label reading exactly FROSTWYRM MINT, the same brine and contents, the same setting (the frozen glacier cavern with the great ice arch, aurora borealis, the coiled pale frost dragon in the ice, frosted mint sprigs). Recompose for a wide frame: the jar stands on the RIGHT third of the frame (its centre at about 68 percent of the width), filling about 60 percent of the frame height. The LEFT half is darker, calmer atmosphere and environment with soft glow, deliberately low on detail and clutter, because a large headline will sit there. Keep the accent glow colour of the portrait card."
+    },
+    {
+      "id": "oracle-altar",
+      "aspect": "wide",
+      "out": "assets/art/raw/oracle-altar.png",
+      "prompt": "A dark ritual chamber for consulting an oracle: a heavy stone altar table in the foreground with a wide shallow scrying bowl filled with glowing chartreuse-green liquid that reflects an all-seeing eye, a few tall candles, scattered quartz crystals, and a fan of face-down black tarot cards edged in gold (their backs show only a small gold eye sigil, no words). Behind, in deep shadow, the silhouettes of six pickle jars on ancient stone shelves, no readable labels. Chartreuse mist curls up from the bowl. The upper half and both sides are dark and calm. No jar label is legible; no text at all."
+    },
+    {
+      "id": "coven-night",
+      "aspect": "wide",
+      "out": "assets/art/raw/coven-night.png",
+      "prompt": "A quiet, near-empty nightscape used as a website background: a vast starry sky with a faint nebula, a low pale moon behind a distant ruined stone arch on a black lake, still black water with soft reflections, thin chartreuse-green mist along the horizon, a few quartz crystals on the shore. No jar, no pickles, no people, no text. The centre and lower two thirds stay very dark and calm so text can be laid over it."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+/* Design tokens. Change a colour or size here and it changes everywhere.
+   Brand chartreuse #E9FA72 was sampled from the logo. */
+:root {
+  --void: #050506;
+  --night: #080a08;
+  --panel: #0d100c;
+  --panel-2: #131810;
+  --line: rgba(233, 250, 114, 0.14);
+  --line-2: rgba(233, 250, 114, 0.34);
+
+  --pickle: #e9fa72;
+  --pickle-2: #f4ffa8;
+  --pickle-dim: #a9bb4d;
+  --pickle-glow: rgba(233, 250, 114, 0.5);
+
+  --brass: #c9a24a;
+  --brass-2: #e6c877;
+  --brass-dim: #8a7030;
+
+  --bone: #efe9d6;
+  --bone-2: #cfc9b6;
+  --mist: #98a08e;
+  --dim: #69705f;
+  --nebula: #8b6bff;
+
+  --accent: var(--pickle); /* overridden per flavor */
+
+  --f-display: 'Cinzel', 'Trajan Pro', Georgia, serif;
+  --f-serif: 'Cormorant Garamond', Georgia, serif;
+  --f-body: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+
+  --gutter: clamp(18px, 4.4vw, 56px);
+  --max: 1240px;
+  --max-narrow: 800px;
+  --header-h: 68px;
+
+  --ease: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+}
